@@ -50,7 +50,7 @@ class Todo extends Component {
                 this.props.list.filter(
                   x =>
                     x.name === this.state.name && x.number !== this.state.number
-                ).length > 0
+                ).length > 0 && this.state.type==="ADD"
               ) {
                 alert("name  or number already exist !");
               } else {
