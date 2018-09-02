@@ -56,7 +56,7 @@ class Todo extends Component {
               } else {
                 if (this.state.name !== "" && this.state.number.length === 8) {
                   this.props.click(this.state);
-                  this.setState({ id: undefined, name: "", number: "" });
+                  this.setState({ id: undefined, name: "", number: "",type:"ADD" });
                 } else {
                   alert(
                     "empty field not allowed and number length must be = 8 !"
