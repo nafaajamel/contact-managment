@@ -1,0 +1,49 @@
+.form{
+  display: flex;
+  flex-direction: column ;
+  width:300px;
+  height:100px;
+  margin: 25px auto;
+justify-content: space-around;
+align-items: center;
+
+}
+.form *{
+  width:80%;
+  height:25px;
+ padding:  0 5px;
+ border-radius:5px;
+outline-style: none
+
+}
+.thead{
+  background: rgb(225, 233, 235);
+}
+#btn{
+  background: rgb(40, 136, 226);
+  color:white;
+  font-size:18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+
+}
+.delete{color:red}
+.edit{color:rgb(153, 153, 22)}
+.delete,.edit{
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.delete:hover,.edit:hover{
+background: rgb(193, 219, 230)
+}
+.app{
+  width:100%;
+}
+.list{
+  width:300px;
+  border:0;
+  margin: auto;
+}
